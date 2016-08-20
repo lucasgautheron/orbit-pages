@@ -1,0 +1,9 @@
+0.1a -> 0.1b
+------------
+
+ - Export XML de l'état courant des corps célestes
+ - Affichage distance moyenne avec le référentiel (en supposant l'existence d'une orbite elliptique)
+ - Corrections apportées à l'aide
+ - Quelques fichiers inutiles retirés
+ - Inclusion licence
+ - Publication source + projet vcpp 2010

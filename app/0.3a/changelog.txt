@@ -1,0 +1,4 @@
+0.2b -> 0.2c
+------------
+
+ - Réécriture du système de gestion des évènements clavier (et correction des bugs pouvant survenir lors de l'appui de plusieurs touches en même temps)

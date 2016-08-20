@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="fr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Logiciel Orbit</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<div id="global">
+				<h1>Orbit</h1>
+                <div><a href="index.html">Accueil</a> - <a href="telechargement.html">Téléchargement</a> - <a href="aide.html">Fonctionnalités / Aide</a>  - <a href="apropos.html">A propos...</a></div>
+                <hr />
+                <h3>Calcul des syzygies</h3>
+                
+                <p>
+                    Le programme détecte les situations de syzygie à la volée.<br />
+                    
+                    On considère 3 planètes supposées parfaitement sphériques dans l'espace :
+                    
+                    <table class="medium">
+                    <tr class="head">
+                        <td>Planète</td>
+                        <td>Vecteur position du centre</td>
+                        <td>Rayon</td>
+                        <td>Couleur schéma</td>
+                    </tr>
+                    
+                    <tr>
+                        <td><b>Origine (pl)</b>. Il s'agit de la planète depuis laquelle on observe le phénomène.</td>
+                        <td><img src="pck/latex/dem_syzygie/ppl.gif" /></td>
+                        <td><img src="pck/latex/dem_syzygie/rpl.gif" /></td>
+                        <td>Bleu</td>
+                    </tr>
+                    
+                    <tr>
+                        <td><b>Référentiel (ref)</b>. C'est la planète devant laquelle on observe le phénomène.</td>
+                        <td><img src="pck/latex/dem_syzygie/pref.gif" /></td>
+                        <td><img src="pck/latex/dem_syzygie/rref.gif" /></td>
+                        <td>Orange</td>
+                    </tr>
+                    
+                    <tr>
+                        <td><b>Obstacle (ob)</b>. C'est la planète observée devant le référentiel lors du phénomène.</td>
+                        <td><img src="pck/latex/dem_syzygie/pob.gif" /></td>
+                        <td><img src="pck/latex/dem_syzygie/rob.gif" /></td>
+                        <td>Vert</td>
+                    </tr>                    
+                    </table>
+                    <br /><br />
+                    <b>NB</b> : Pour la suite du problème on considère que le rayon de la planète d'origine est inférieur au rayon de la planète-référentiel. Cela permet de simplifier la démonstration mais il ne s'agit en aucun cas d'une nécessité pour le logiciel qui détermine automatiquement quelle planète de l'origine ou du référentiel a effectivement le plus petit rayon.
+                </p>
+                
+                <p>
+                Le problème consiste à vérifier que la planète-obstacle soit comprise dans le cône tronqué passant par les extrémités des planètes "référentiel" et "origine". Pour cela on se place dans le plan comprenant les centres des trois sphères.
+                </p>
+                
+                <p><img src="pck/latex/dem_syzygie/schema.jpg" style="border: 1px solid black;" /><br /><br />Le cône apparait en violet. Le référentiel est représenté en jaune, la planète d'origine en bleu et l'obstacle en vert.</p>
+            
+
+<p>&copy; Lucas GAUTHERON (lucas.gautheron<img src="pck/at.gif" width="10" height="10" style="vertical-align: middle;" alt="@" />gmail.com)</p>
+		</div>
+	</body>
+</html>

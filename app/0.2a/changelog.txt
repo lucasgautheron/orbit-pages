@@ -1,0 +1,6 @@
+0.1b -> 0.2a
+------------
+
+ - Calcul des sygyzies (détection de transit, éclipses, etc.)
+ - Inclusion des sygyzies dans l'export XML
+ - Ajout du système Mercure-Soleil seul parmi les choix prédéfinis (en vue de calculs de précession du périhélie)

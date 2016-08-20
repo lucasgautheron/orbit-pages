@@ -1,0 +1,7 @@
+0.2a -> 0.2b
+------------
+
+ - Possibilité de négliger l'effet gravitationnel d'un corps céleste
+ - Correction du rayon du Soleil
+ - Calcul des diamètres apparents lors des syzygies
+ - Mise à jour de l'aide

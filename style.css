@@ -1,0 +1,51 @@
+html, body
+{
+	height: 100%;
+	margin: 0;
+    background-color: #DDD;
+    font: 95% "Trebuchet MS", sans-serif;
+}
+
+div#global
+{
+    background-color: white;
+    min-height: 100%;
+    width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+}
+
+pre
+{
+    font-family: monospace;
+    border: 1px dotted black;
+    padding: 5px;
+    overflow-y: scroll;
+}
+
+.head { font-weight: bold; }
+
+table.small
+{
+    width: 300px;
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
+
+table.medium
+{
+    width: 500px;
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
+
+table.small td, table.medium td
+{
+    padding: 2px 4px;
+    border: 1px solid gray;
+    text-align: left;
+    vertical-align: top;
+}
